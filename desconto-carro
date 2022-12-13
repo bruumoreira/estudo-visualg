@@ -1,0 +1,53 @@
+Algoritmo "CARFREE"
+// Disciplina : [Lógica de Programação]
+// Descrição : Tabela de desconto CARFREE
+// Autor(a) : Bruna Moreira Francisco
+// Data atual : 19/08/2022
+
+var
+
+novoCalculo:inteiro
+veiculo:caracter
+valor: real
+ano:inteiro
+desconto: real
+nome: caracter
+
+Inicio
+
+novoCalculo := 1
+escreval ("CONCESSIONÁRIA CARFREE")
+escreval ("______________________________")
+
+escreva("digite seu nome - ")
+leia(nome)
+
+
+enquanto novoCalculo = 1 FACA
+escreva("digite o nome do veiculo = ")
+leia(veiculo)
+
+escreva("digite o valor do veículo = ")
+leia(valor)
+
+escreva("digite o ano do veículo = ")
+Leia(ano)
+
+SE (ano <= 2010) ENTAO
+desconto := valor * 0.12
+ESCREVAL ("Para veiculos do ano de ",ano," o desconto é de 12%.")
+ESCREVAL ("Valor com desconto R$ ",valor - desconto)
+senao
+desconto := valor * 0.07
+ESCREVAL ("Para veiculos ",ano," o desconto é de 7%.")
+ESCREVAL ("Valor com desconto R$ ",valor - desconto)
+fimse
+
+escreva("quer realizar um novo calculo (1 = sim / 0= nao)=")
+Leia(novoCalculo)
+
+fimenquanto
+
+ESCREVAL ("Obrigado por utilizar nossos serviços!")
+
+fimalgoritmo
