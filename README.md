@@ -19,7 +19,7 @@ O algoritmo calcula o desconto de acordo com o modelo do carro escolhido.
     4 - Simular os descontos para cada modelo de carro e ano de fabricação, de acordo com sua escolha.
 
 ## Colaboradores
-Bruna Stefani Moreira Torres Francisco <a href="https://www.linkedin.com/in/bruna-moreira-torres-francisco/" target="_blank">LinkedIn</a>
+Bruna Stefani Moreira Torres Francisco - <a href="https://www.linkedin.com/in/bruna-moreira-torres-francisco/" target="_blank">LinkedIn</a>
 
 ## Status do Projeto
 Concluído.
